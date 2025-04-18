@@ -9,7 +9,7 @@ export const CircleImage = () => {
         width={200}
         height={200}
         alt="circle"
-        className="w-full h-full"
+        className="w-full h-full rounded-tl-[7rem]"
       ></Image>
     </div>
   );
