@@ -53,25 +53,25 @@ export const itemsNavbar = [
   },
   {
     id: 2,
-    title: "User",
+    title: "Sobre Mi",
     icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
     link: "/about-me",
   },
   {
     id: 3,
-    title: "Book",
+    title: "Servicios",
     icon: <BookText size={25} color="#fff" strokeWidth={1} />,
     link: "/services",
   },
   {
     id: 4,
-    title: "Target",
+    title: "Portafolio",
     icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
     link: "/portfolio",
   },
   {
     id: 5,
-    title: "Home",
+    title: "Clientes",
     icon: <Speech size={25} color="#fff" strokeWidth={1} />,
     link: "/testimonials",
   },
@@ -115,32 +115,32 @@ export const dataAboutPage = [
 export const dataCounter = [
   {
     id: 0,
-    endCounter: 10,
+    endCounter: 2,
     text: "Años de experiencia",
     lineRight: true,
     lineRightMobile: true,
   },
+  // {
+  //   id: 1,
+  //   endCounter: 0,
+  //   text: "Clientes satisfechos",
+  //   lineRight: true,
+  //   lineRightMobile: false,
+  // },
   {
     id: 1,
-    endCounter: 80,
-    text: "Clientes satisfechos",
-    lineRight: true,
-    lineRightMobile: false,
-  },
-  {
-    id: 2,
-    endCounter: 220,
+    endCounter: 10,
     text: "Proyectos finalizados",
     lineRight: true,
     lineRightMobile: true,
   },
-  {
-    id: 3,
-    endCounter: 30,
-    text: "Premios ganadores",
-    lineRight: false,
-    lineRightMobile: false,
-  },
+  // {
+  //   id: 3,
+  //   endCounter: 0,
+  //   text: "Premios ganadores",
+  //   lineRight: false,
+  //   lineRightMobile: false,
+  // },
 ];
 
 export const serviceData = [
