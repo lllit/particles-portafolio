@@ -13,7 +13,7 @@ export const TransitionPage = () => {
                     initial="initial"
                     animate="animate"
                     exit="exit"
-                    transition={{delay:0.2, duration:0.6, ease: "easeInOut"}}
+                    transition={{delay:0.1, duration:0.6, ease: "easeInOut"}}
                 >
 
                 </motion.div>
