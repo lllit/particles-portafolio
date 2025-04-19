@@ -15,13 +15,13 @@ export const PortfolioBox = (props: PortfolioBoxProps) => {
   const { data } = props;
   const { title, image, urlGithub, urlDemo } = data;
   return (
-    <div className="p-4 border border-woodsmoke-200 rounded-xl">
+    <div className="p-4  border-opacity-50 bg-woodsmoke-900/60 backdrop-blur-md rounded-xl">
       <h3 className="mb-4 text-xl">{title}</h3>
       <Image
         src={image}
         alt="image product"
-        width={200}
-        height={200}
+        width={300}
+        height={300}
         className="w-full md:w-[200px] rounded-2xl h-auto"
       ></Image>
       <div className="flex gap-5 mt-5">
