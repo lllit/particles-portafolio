@@ -13,7 +13,7 @@ interface PortfolioBoxProps {
 
 export const PortfolioBox = (props: PortfolioBoxProps) => {
   const { data } = props;
-  const { id, title, image, urlGithub, urlDemo } = data;
+  const { title, image, urlGithub, urlDemo } = data;
   return (
     <div className="p-4 border border-woodsmoke-200 rounded-xl">
       <h3 className="mb-4 text-xl">{title}</h3>
