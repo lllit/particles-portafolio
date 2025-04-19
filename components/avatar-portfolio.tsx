@@ -11,10 +11,11 @@ export const AvatarPortfolio = () => {
       <Image
         src="/avatar-services.jpg"
         alt="avatar services"
-        width={300}
-        height={300}
+        width={200}
+        height={200}
         className="w-full h-full rounded-tr-full"
       ></Image>
+      <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-black/50 to-transparent"></div>
     </MotionTransition>
   );
 };
