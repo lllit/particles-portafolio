@@ -7,7 +7,6 @@ import 'swiper/css/scrollbar'
 import { Navbar } from "@/components/navbar";
 import { Header } from "@/components/header";
 import { CoverParticles } from "@/components/cover-particles";
-import Particles from "@tsparticles/react";
 import { LiquidComponent } from "@/components/liquid-component";
 
 
