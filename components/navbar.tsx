@@ -20,7 +20,7 @@ export const Navbar = () => {
             <div
               key={item.id}
               className={`relative group px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-woodsmoke-800 
-                ${router === item.link && "bg-woodsmoke-500"}`}
+                ${router === item.link && "bg-secondary"}`}
             >
               <Link href={item.link}>{item.icon}</Link>
 
